@@ -1,19 +1,121 @@
-.banner-principal-decorativo
-  &-1
-    animation: float1 3.5s ease-in-out infinite alternate
-    position: absolute
-    top: 40%
-    right: 50%
-  &-2
-    animation: float1 2.8s ease-in-out infinite alternate
-    position: absolute
-    top: 51%
-    right: 30%
-
+.banner-principal__row .banner-principal__img
+  animation: float1 3.5s ease-in-out infinite alternate
+  position: relative
+  width: 400px
 
 @keyframes float1
   0%
     transform: translateY(20px)
-
   100%
     transform: translateY(0px)
+
+.BG01
+  background-color: lighten($color-primario, 21%) !important
+
+.BG02
+  background-color: lighten($color-secundario, 40%) !important
+
+.BG022
+  background-color: #cdf5f6 !important
+
+.BG03
+  background-color: lighten($color-acento-contenido, 27%) !important
+
+.BG04
+  background-color: lighten($color-acento-botones, 58%) !important
+
+.BGgt
+  background-color: $color-sistema-h !important
+
+.BGgt2
+  background-color: $color-sistema-f !important
+
+.bgImg01
+  background-image: url("../assets/curso/intro/img01.jpg")
+  background-size: cover
+  background-repeat: no-repeat
+  background-position: center
+
+.BGwhite05
+  background-color: $white
+  opacity: 0.9
+
+.BGesp01
+  background-color: #FFD500 !important
+
+.brdBtn
+  border-radius: 0 0 14px 14px
+
+.brdFull
+  border-radius: 14px
+
+.pst01
+  position: absolute
+  bottom: 30px
+  left: 0
+  width: 50%
+
+.pst02
+  width: 75%
+
+.tabs-a.color-acento-contenido .tabs-a__tab:hover, .tabs-a.color-acento-contenido .tabs-a__tab:active, .tabs-a.color-acento-contenido .tabs-a__tab:focus
+  color: $white !important
+
+.slyder-a__bullets
+  bottom: -30px !important
+
+.BGpostLeft
+  background-position: left !important
+
+.BefCont
+  position: relative !important
+  &::before
+    content: ''
+    position: absolute
+    bottom: 0
+    width: 100%
+    height: 14%
+    background-color: lighten($color-secundario, 40%) !important
+
+.tableS1
+  border-collapse: collapse
+  width: 100%
+  min-width: 400px
+
+  th, td
+    border: 1px solid #a79e9e
+    padding: 8px
+  
+  th
+    
+    background-color: lighten($color-primario, 21%)
+  
+.BG01s
+  background-color: lighten($color-primario, 5%) !important
+
+.wNew
+  width: 50%
+
+.minCont1
+  overflow-x: auto
+
+.tabs-a__tab
+  background-color: $color-sistema-f
+
+.w-100
+  height: 100% !important
+
+@media screen and (max-width: 1200px)
+  .pst01
+    position: initial
+    width: 100%
+  
+  .pst02
+    width: 100%  
+
+@media screen and (max-width: 991px)
+  .slyder-a__btn--sigt, .slyder-a__btn--atrs
+    top: 102% !important
+
+  .wNew
+    width: 80%
