@@ -3,35 +3,64 @@
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
     
-    .titulo-principal.color-primario
+    .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
       h1 Operatividad para confección de prendas
     
     .row.justify-content-center(data-aos="fade-left")
-      .col-lg-11
-        .bloque-texto-g.color-acento-contenido.BG022.p-3.p-sm-4.p-md-5.mb-5
-          .bloque-texto-g__img.BGpostLeft(
-            :style="{'background-image': `url(${require('@/assets/curso/tema3/img01.jpg')})`}"
-          )
-          .bloque-texto-g__texto.d-grid.p-4
-            p.mb-4 Las normas contienen las especificaciones técnicas de cada producto y como estas mismas deben ser operadas del desarrollo del producto, siempre en pro de cumplir estándares y especificaciones para asegurar parámetros de calidad dentro de un rango de cumplimiento en la presentación, calidad y estética de las prendas o artículos a producir.
+      .col-lg-10
+        .bloque-texto-a.color-ima.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-5.mb-4.mb-lg-0
+              img(src="@/assets/curso/tema3/img01.svg", alt="Máquinas de confección")
+            .col-lg-7
+              .bloque-texto-a__texto.p-4
+                p.mb-4 Las normas contienen las especificaciones técnicas de cada producto y como estas mismas deben ser operadas del desarrollo del producto, siempre en pro de cumplir estándares y especificaciones para asegurar parámetros de calidad dentro de un rango de cumplimiento en la presentación, calidad y estética de las prendas o artículos a producir.
+        
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-10
+        .row
+          .col-lg-6
             p.mb-4 En el cuadernillo podrá conocer las normas asociadas a la calidad en los procesos de confección.
-            .row.d-flex.justify-content-center
-              .col-lg-8
-                a.anexo(:href="obtenerLink('/downloads/Anexo4_Calidad_confeccion.pdf')" target="_blank")
-                  .anexo__icono
-                    img(src="@/assets/template/icono-pdf.svg")
-                  .anexo__texto
-                    p.d-inline #[strong Anexo.] Calidad en la confección.
+            a.py-4.anexo(:href="obtenerLink('/downloads/Anexo4_Calidad_confeccion.pdf')" target="_blank")
+              .anexo__icono.py-2
+                img(src="@/assets/curso/tema2/documento.svg")
+              .anexo__texto
+                p.d-inline #[strong Anexo.] Calidad en la confección.
+              .anexo
+                img(src="@/assets/curso/tema2/descargar.svg")
+          .col-lg-5
+            img(src="@/assets/curso/tema3/img002.svg")
+
+    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
+      .row.justify-content-around.align-items-center
+        .col-3.col-sm-2.col-lg-1
+          img(src="@/assets/curso/tema2/documento.svg")
+        .col
+          .row.justify-content-between.align-items-center
+            .col.mb-3.mb-sm-0
+              h3.mb-1 Materiales e insumos para vestuario.
+              p.text-small Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.
+            .col-sm-auto
+              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
+                span Descargas
+                i.fas.fa-download       
     
-    h2(data-aos="fade") Puntadas por pulgada (PPP)
+    .mb-4.d-flex.py-4
+      .d-flex.flex-wrap.align-items-center.pe-4.fondo-rojo.p-2.px-4
+        img.col-lg.d-none.d-lg-flex(src='@/assets/curso/tema1/boton.svg' style="max-width: 50px; left: 43px; position: absolute" data-aos="fade-left")
+        h3.col.px-4.mb-0.text-white(data-aos="fade-right") Puntadas por pulgada
 
     p.mb-5 Se debe tener en cuenta que, al escribir las especificaciones de una prenda, se debe detallar la cantidad apropiada de puntadas por pulgada (PPP) que deben ser usadas en su proceso de costura. La razón de esto se debe a que la cantidad de puntadas por pulgada puede tener influencia en aspectos como:
 
     .row.justify-content-center.align-items-center.mb-4(data-aos="fade-up")
-      .col-lg-8
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris")
+      
+      .col-8.col-lg-5
+        figure
+          img(src='@/assets/curso/tema3/img05.png', alt='Puntadas por pulgada (PPP)')
+      .col-lg-7
+        AcordionA.mb-5(tipo="b" clase-tarjeta="tarjeta color-rosadopalido")
           div(titulo="Resistencia de la costura")
             p Generalmente, entre más puntadas por pulgada, mayor es la resistencia de la costura. Existen algunos casos raros donde agregar puntadas por pulgada puede causar daño a la tela de forma que la costura es debilitada, como sea, esto solamente pasa en telas específicas que pueden ser fácilmente dañadas por excesivas penetraciones de la aguja.
           
@@ -40,9 +69,7 @@
           
           div(titulo="Elasticidad de la costura en telas elásticas")
             p La costura la conforma el entrelazado de uno o más hilo, por la secuencia de movimientos por unas partes especificas donde se genera las puntadas, las puntadas de las maquinas clasifican dentro de un rango de elasticidad, donde es importante la participación de la composición de la tela y que tanta elasticidad esta representa.
-      .col-8.col-lg-4
-        figure
-          img(src='@/assets/curso/tema3/img02.svg', alt='Puntadas por pulgada (PPP)')
+      
     
     p.mb-4 Ahora bien, el tamaño de la puntada debe ser medido contando la cantidad de entradas de la aguja en la tela dentro de una pulgada.
 
