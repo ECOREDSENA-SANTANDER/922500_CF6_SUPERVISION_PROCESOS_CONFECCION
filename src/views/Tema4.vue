@@ -8,55 +8,59 @@
         span 4
       h1 Agujas
     
-    .row.justify-content-center
-      .col-lg-11
-        .bloque-texto-g.color-acento-contenido.BG02.p-3.p-sm-4.p-md-5.mb-5(data-aos="fade-left")
-          .bloque-texto-g__img.BGpostLeft(
-            :style="{'background-image': `url(${require('@/assets/curso/tema4/img01.jpg')})`}"
-          )
-          .bloque-texto-g__texto.d-grid.p-4
-            p.mb-4 Las agujas tienen una referencia, especificaciones técnicas de uso, clasificación y grosor lo cual realizaremos una descripción de cada parte y servicio que pueden desarrollar y agilizar las operaciones en la confección.
-            p.mb-4 De acuerdo con el sitio web Máquina de Coser (2016), la aguja se considera como una herramienta indispensable para la costura en la introducción en las máquinas para la confección, determinadas para penetrar el insumo y transportar el hilo que permita unir con el hilo.
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-10
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-5.mb-4.mb-lg-0
+              img(src="@/assets/curso/tema3/img01.svg", alt="Máquinas de confección")
+            .col-lg-7
+              .bloque-texto-a__texto.p-4
+                p.mb-4Las agujas, componentes esenciales en el proceso de costura, se caracterizan por una serie de referencias y especificaciones técnicas que incluyen su clasificación y grosor. A continuación, se ofrecerá una descripción detallada de cada aspecto y la funcionalidad que estas proporcionan para optimizar las operaciones en la confección.
         
-        .BGgt.mb-5(data-aos="flip-up")
-          .BG02.p-4.mb-5.brdBtn
-            h2.mb-0.text-center Partes de la aguja
+    .row 
+      p.mb-4 Según el material “Máquina de Coser (2016)”, la aguja se identifica como una herramienta fundamental en la costura, imprescindible en las máquinas de confección. Su función principal es penetrar el material a coser y transportar el hilo, facilitando así la unión de los tejidos.
+        .row.justify-content-center(data-aos="fade-left") 
+          .col-lg-8
+            .BGgt.mb-4(data-aos="flip-up")
+              .BG02.p-4.mb-4.brdBtn
+                h2.mb-0.text-center Partes de la aguja
           
-          .row.d-flex.justify-content-center
-            .col-10.col-md-8.col-lg-4
-              ImagenInfografica.color-acento-contenido.mb-5
+        .row.d-flex.justify-content-center.fondo2.p-4
+          .col-10.col-md-8.col-lg-4
+            ImagenInfografica.color-acento-contenido.mb-5
 
-                template(v-slot:imagen)
-                  figure
-                    img(src='@/assets/curso/tema4/img02.svg', alt='Texto que describa la imagen')
+              template(v-slot:imagen)
+                figure
+                  img(src='@/assets/curso/tema4/img02.svg', alt='Texto que describa la imagen')
 
-                .tarjeta.color-acento-botones.BGesp01.p-3(x="41.8%" y="3.1%")
-                  .h5.mb-2.text-dark Base
-                  p.text-dark.mb-0 Es la parte superior de la aguja y tiene forma de cúpula para facilitar el ingreso en la perforación de la barra de aguja.
+              .tarjeta.color-acento-botones.BGesp01.p-3(x="41.8%" y="3.1%")
+                .h5.mb-2.text-dark Base
+                p.text-dark.mb-0 Es la parte superior de la aguja y tiene forma de cúpula para facilitar el ingreso en la perforación de la barra de aguja.
                 
-                .tarjeta.color-acento-botones.BGesp01.p-3(x="79.7%" y="29.5%")
-                  .h5.mb-2.text-dark Cabo
-                  p.text-dark.mb-0 Es la parte de donde se sujeta la aguja, en ella viene grabado un número que identifica el calibre de la aguja y la insignia o nombre de la casa fabricante de la aguja.
+              .tarjeta.color-acento-botones.BGesp01.p-3(x="79.7%" y="29.5%")
+                .h5.mb-2.text-dark Cabo
+                p.text-dark.mb-0 Es la parte de donde se sujeta la aguja, en ella viene grabado un número que identifica el calibre de la aguja y la insignia o nombre de la casa fabricante de la aguja.
                 
-                .tarjeta.color-acento-botones.BGesp01.p-3(x="79.7%" y="78.2%")
-                  .h5.mb-2.text-dark Chaflan
-                  p.text-dark.mb-0 Es un rebaje que se encuentra en la parte inferior de la hoja, es por ahí donde pasa el tomador de lazada y es como guía para el hilo.
+              .tarjeta.color-acento-botones.BGesp01.p-3(x="79.7%" y="78.2%")
+                .h5.mb-2.text-dark Chaflan
+                p.text-dark.mb-0 Es un rebaje que se encuentra en la parte inferior de la hoja, es por ahí donde pasa el tomador de lazada y es como guía para el hilo.
                 
-                .tarjeta.color-acento-botones.BGesp01.p-3(x="79.7%" y="96.4%")
-                  .h5.mb-2.text-dark Punta
-                  p.text-dark.mb-0 Parte encargada de abrir o desplazar el material para que la aguja pueda llevar el hilo al tomador de lazada, además sus formas son variadas como los materiales a coser.        
+              .tarjeta.color-acento-botones.BGesp01.p-3(x="79.7%" y="96.4%")
+                .h5.mb-2.text-dark Punta
+                p.text-dark.mb-0 Parte encargada de abrir o desplazar el material para que la aguja pueda llevar el hilo al tomador de lazada, además sus formas son variadas como los materiales a coser.        
                 
-                .tarjeta.color-acento-botones.BGesp01.p-3(x="31%" y="44.9%")
-                  .h5.mb-2.text-dark Cono
-                  p.text-dark.mb-0 Es donde el talón se reduce para formar la hoja y tiene forma cónica porque si esa parte toca la tela, pueda continuar abriendo el tejido y no romperlo.
+              .tarjeta.color-acento-botones.BGesp01.p-3(x="31%" y="44.9%")
+                .h5.mb-2.text-dark Cono
+                p.text-dark.mb-0 Es donde el talón se reduce para formar la hoja y tiene forma cónica porque si esa parte toca la tela, pueda continuar abriendo el tejido y no romperlo.
                 
-                .tarjeta.color-acento-botones.BGesp01.p-3(x="31%" y="69.2%")
-                  .h5.mb-2.text-dark Ranura larga
-                  p.text-dark.mb-0 Canal que se encuentra en la hoja de la aguja y se extiende desde el ojo al declive.
+              .tarjeta.color-acento-botones.BGesp01.p-3(x="31%" y="69.2%")
+                .h5.mb-2.text-dark Ranura larga
+                p.text-dark.mb-0 Canal que se encuentra en la hoja de la aguja y se extiende desde el ojo al declive.
                 
-                .tarjeta.color-acento-botones.BGesp01.p-3(x="31%" y="86.6%")
-                  .h5.mb-2.text-dark Ojo
-                  p.text-dark.mb-0 Perforación que tiene una aguja para pasar el hilo y mucho depende su tamaño de acuerdo con el número de la aguja.
+              .tarjeta.color-acento-botones.BGesp01.p-3(x="31%" y="86.6%")
+                .h5.mb-2.text-dark Ojo
+                p.text-dark.mb-0 Perforación que tiene una aguja para pasar el hilo y mucho depende su tamaño de acuerdo con el número de la aguja.
         
         h2 Tipos de puntas en las agujas
 

@@ -7,30 +7,16 @@
       .titulo-principal__numero
         span 1
       h1 Máquinas de confección
-
-    .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          img(src="@/assets/curso/tema1/001.svg", alt="Máquinas de confección")
-        .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p Con el fin de reconocer e identificar las partes y tipos de máquinas y sus usos, es importante entender los conceptos básicos y terminología relacionada con las funciones y generaciones de maquinaria. Esto proporcionará los conocimientos de relación entre insumos, maquinaria y ajustes para facilitar el desarrollo operativo del personal que manipula la maquinaria y las prendas a fabricar.
-
-    .bloque-texto-a.color-secundario.p-4.p-md-5.mb-5 
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-4.mb-4.mb-lg-0
-          h2.mb-0 Whatever can be captured in words can be conquered with understanding. 
-        .col-lg-8
-          .bloque-texto-a__texto.p-4
-            p Think about all the possibilities. A good composition is the result of a hierarchy consisting of clearly contrasting elements set with distinct alignments containing irregular intervals of negative space. Nothing of without working at it. Be impossible to ignore.
-              br
-              br
-              | Stand so tall that they can’t look past you. Saul 
-
-
-
-
-
+    
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-10
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-4.mb-4.mb-lg-0
+              img(src="@/assets/curso/tema1/001.svg", alt="Máquinas de confección")
+            .col-lg-8
+              .bloque-texto-a__texto.p-4
+                p Con el fin de reconocer e identificar las partes y tipos de máquinas y sus usos, es importante entender los conceptos básicos y terminología relacionada con las funciones y generaciones de maquinaria. Esto proporcionará los conocimientos de relación entre insumos, maquinaria y ajustes para facilitar el desarrollo operativo del personal que manipula la maquinaria y las prendas a fabricar.
 
     p.mb-4 De esta forma, vamos a explorar los siguientes elementos:
 

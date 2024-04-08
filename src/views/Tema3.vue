@@ -10,7 +10,7 @@
     
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
-        .bloque-texto-a.color-ima.p-4.p-md-5.mb-5 
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
           .row.m-0.align-items-center.justify-content-between
             .col-lg-5.mb-4.mb-lg-0
               img(src="@/assets/curso/tema3/img01.svg", alt="Máquinas de confección")
@@ -20,32 +20,24 @@
         
     .row.justify-content-center(data-aos="fade-left")
       .col-lg-10
-        .row
+        .row.justify-content-center(data-aos="fade-left")
           .col-lg-6
             p.mb-4 En el cuadernillo podrá conocer las normas asociadas a la calidad en los procesos de confección.
-            a.py-4.anexo(:href="obtenerLink('/downloads/Anexo4_Calidad_confeccion.pdf')" target="_blank")
-              .anexo__icono.py-2
-                img(src="@/assets/curso/tema2/documento.svg")
-              .anexo__texto
-                p.d-inline #[strong Anexo.] Calidad en la confección.
-              .anexo
-                img(src="@/assets/curso/tema2/descargar.svg")
-          .col-lg-5
-            img(src="@/assets/curso/tema3/img002.svg")
-
-    .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
-      .row.justify-content-around.align-items-center
-        .col-3.col-sm-2.col-lg-1
-          img(src="@/assets/curso/tema2/documento.svg")
-        .col
-          .row.justify-content-between.align-items-center
-            .col.mb-3.mb-sm-0
-              h3.mb-1 Materiales e insumos para vestuario.
-              p.text-small Las materias primas e insumos de calidad minimizan el porcentaje de segunda calidad en la producción, evitan desperdicios y dificultades en la producción y a la vez mejora la competitividad.
-            .col-sm-auto
-              a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/prueba.pdf')" target="_blank")
-                span Descargas
-                i.fas.fa-download       
+  
+            .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
+              .row.justify-content-around.align-items-center
+                .col-3.col-sm-2.col-lg-2
+                  img(src="@/assets/curso/tema2/documento.svg")
+                .col
+                  .row.justify-content-between.align-items-center
+                    .col.mb-3.mb-sm-0
+                      p.color-textoazul.mb-1 Anexo. Calidad en la confección
+                    .col-sm-auto
+                      a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('downloads/Anexo4_Calidad_confeccion.pdf')" target="_blank")
+                        span Descargas
+                        i.fas.fa-download
+          .col-lg-4
+            img(src='@/assets/curso/tema3/img002.svg', alt='Puntadas por pulgada (PPP)')      
     
     .mb-4.d-flex.py-4
       .d-flex.flex-wrap.align-items-center.pe-4.fondo-rojo.p-2.px-4
@@ -70,25 +62,22 @@
           div(titulo="Elasticidad de la costura en telas elásticas")
             p La costura la conforma el entrelazado de uno o más hilo, por la secuencia de movimientos por unas partes especificas donde se genera las puntadas, las puntadas de las maquinas clasifican dentro de un rango de elasticidad, donde es importante la participación de la composición de la tela y que tanta elasticidad esta representa.
       
-    
-    p.mb-4 Ahora bien, el tamaño de la puntada debe ser medido contando la cantidad de entradas de la aguja en la tela dentro de una pulgada.
-
-    .BG01.p-4.brdFull.mb-5(data-aos="flip-up")
-      p.mb-0.fst-italic Existen diferentes contadores de puntadas que hacen esta medida fácil. De igual manera, existe la opción de  colocar una cinta métrica enseguida del pespunte y hacer la misma función en 2,54 cm que es el equivalente a una pulgada.
-    
-    .row.justify-content-center
+    .row.justify-content-center.align-items-center
       .col-lg-10
-        .row.justify-content-center
-          .col-lg-6.mb-4.mb-lg-0(data-aos="fade-left")
-            p.mb-5 Como se puede ver en la imagen, en esta costura se evidencia 9 puntadas por pulgada (PPP).
+        .row 
+          p.mb-4 Ahora bien, el tamaño de la puntada debe ser medido contando la cantidad de entradas de la aguja en la tela dentro de una pulgada.
+          .col-lg-5
+            .fondo-palido.p-4.brdFull.mb-5(data-aos="flip-up")
+              p.mb-0 Existen diferentes contadores de puntadas que hacen esta medida fácil. De igual manera, existe la opción de  colocar una cinta métrica enseguida del pespunte y hacer la misma función en 2,54 cm que es el equivalente a una pulgada.
+            p.mb-5 Tal como se presenta en la imagen, la costura cuenta con 9 puntadas por pulgada (PPP).
             .titulo-sexto.color-acento-contenido
-              h5 Fiigura 1
+              h5 Figura 1
               span Imagen de 9 puntadas por pulgada (PPP)
             figure
               img(src='@/assets/curso/tema3/img04.svg', alt='Imagen de 9 puntadas por pulgada (PPP)')
-          .col-10.col-lg-6(data-aos="fade")
-            figure
-              img(src='@/assets/curso/tema3/img03.svg', alt='Puntadas por pulgada (PPP)')
+      
+          .col-lg-7(data-aos="fade")
+            img(src='@/assets/curso/tema3/img05.svg', alt='Puntadas por pulgada (PPP)')
 
 </template>
 

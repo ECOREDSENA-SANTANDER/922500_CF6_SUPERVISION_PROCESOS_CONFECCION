@@ -8,14 +8,16 @@
         span 2
       h1 Maquinaria y equipo de procesos de confección
     
-    .bloque-texto-a.color-ima.p-4.p-md-5.mb-5 
-      .row.m-0.align-items-center.justify-content-between
-        .col-lg-5.mb-4.mb-lg-0
-          img(src="@/assets/curso/tema2/img01.svg", alt="Máquinas de confección")
-        .col-lg-7
-          .bloque-texto-a__texto.p-4
-            p.mb-4 En base a las diferentes máquinas y la composición de su estructura, tipo de operación a desarrollar y partes que la conforman, es importante señalar el conjunto de piezas que funcionan por accionamiento mecánico, estas son las siguientes:
-            h5.color-texto-rojo Cabezote, brazo, columna y cama.
+    .row.justify-content-center(data-aos="fade-left")
+      .col-lg-10
+        .bloque-texto-a.color-acento-contenido.p-4.p-md-5.mb-5 
+          .row.m-0.align-items-center.justify-content-between
+            .col-lg-5.mb-4.mb-lg-0
+              img(src="@/assets/curso/tema2/img01.svg", alt="Máquinas de confección")
+            .col-lg-7
+              .bloque-texto-a__texto.p-4
+                p.mb-4 En base a las diferentes máquinas y la composición de su estructura, tipo de operación a desarrollar y partes que la conforman, es importante señalar el conjunto de piezas que funcionan por accionamiento mecánico, estas son las siguientes:
+                h5.color-texto-rojo Cabezote, brazo, columna y cama.
     
     p.mb-4.text-center La pieza denominada cama es la que cobra vital importancia en el origen de las operaciones más relevantes de un producto a confeccionar, bien sea, por su dificultad, complejidad, tiempo de producción o calidad, entre otros.
     
@@ -57,34 +59,50 @@
     p.mb-4.text-center.color-rosadopalido.p-4(data-aos="fade-up") Ampliaremos información de enhebre de máquinas y sus tipos de puntadas en los siguientes documentos:
 
       .row.align-items-center.justify-content-center(data-aos="flip-up")
-        .col-lg-10
+        .col-lg-10 
           .row.align-items-center.justify-content-center
             .col-lg-5
               img(src='@/assets/curso/tema2/img03.png', alt='')
             .col-lg-5
-              a.anexo(:href="obtenerLink('/downloads/Anexo1_Enhebrado_calibracion_maquina_plana.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/curso/tema2/documento.svg")
-                .anexo__texto
-                  p #[strong Anexo.] Enhebrado y calibración máquina plana.
-                .anexo
-                  img(src="@/assets/curso/tema2/descargar.svg")
-              br
-              a.anexo(:href="obtenerLink('/downloads/Anexo2_Enhebrado_fileteadora.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/curso/tema2/documento.svg")
-                .anexo__texto
-                  p #[strong Anexo.] Enhebrado fileteadora.
-                .anexo
-                  img(src="@/assets/curso/tema2/descargar.svg")
-              br
-              a.anexo(:href="obtenerLink('/downloads/Anexo3_Enhebrado_maquina_recubridora.pdf')" target="_blank")
-                .anexo__icono
-                  img(src="@/assets/curso/tema2/documento.svg")
-                .anexo__texto
-                  p #[strong Anexo.] Enhebrado máquina recubridora.
-                .anexo
-                  img(src="@/assets/curso/tema2/descargar.svg")
+              .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-3.col-sm-2.col-lg-2
+                    img(src="@/assets/curso/tema2/documento.svg")
+                  .col
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        p.text-small Anexo. Enhebrado y calibración máquina plana.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo1_Enhebrado_calibracion_maquina_plana.pdf')" target="_blank")
+                          span Descargas
+                          i.fas.fa-download
+                  
+              .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-3.col-sm-2.col-lg-2
+                    img(src="@/assets/curso/tema2/documento.svg")  
+                  .col 
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        p.text-small Anexo. Enhebrado fileteadora.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo2_Enhebrado_fileteadora.pdf')" target="_blank")
+                          span Descargas
+                          i.fas.fa-download
+
+              .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5
+                .row.justify-content-around.align-items-center
+                  .col-3.col-sm-2.col-lg-2
+                    img(src="@/assets/curso/tema2/documento.svg")  
+                  .col 
+                    .row.justify-content-between.align-items-center
+                      .col.mb-3.mb-sm-0
+                        p.text-small Anexo. Enhebrado máquina recubridora.
+                      .col-sm-auto
+                        a.boton.color-acento-botones.texto-blanco(:href="obtenerLink('/downloads/Anexo3_Enhebrado_maquina_recubridora.pdf')" target="_blank")
+                          span Descargas
+                          i.fas.fa-download
+
 
 </template>
 
