@@ -62,11 +62,18 @@
                 .h5.mb-2.text-dark Ojo
                 p.text-dark.mb-0 Perforación que tiene una aguja para pasar el hilo y mucho depende su tamaño de acuerdo con el número de la aguja.
         
-        h2 Tipos de puntas en las agujas
-
-        p.mb-4 Es posible identificar diversos tipos de puntas de aguja según su estructura y funciones:
-
-        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta tarjeta--gris" data-aos="slide-up")
+    .row
+      .mb-4.d-flex.py-4
+        .d-flex.flex-wrap.align-items-center.pe-4.fondo-rojo.p-2.px-4
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/tema1/boton.svg' style="max-width: 50px; left: 43px; position: absolute" data-aos="fade-left")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Tipos de puntas en las agujas
+        
+    .row
+      p.mb-4 Es posible identificar diversos tipos de puntas de aguja según su estructura y funciones:
+      .col-lg-4
+        img(src='@/assets/curso/tema4/agujas.png', alt='Texto que describa la imagen')
+      .col-lg-8
+        AcordionA.mb-5(tipo="a" clase-tarjeta="tarjeta acordeon-rosado" data-aos="slide-up").py-4
           div(titulo="Agujas universales")
             p Tienen una punta redondeada, son utilizadas para coser tejidos de punto, algodón, lino. Se clasifican los grosores finos para telas ligeras y de mayor grosor para telas más pesadas.
           
@@ -85,7 +92,7 @@
       h5 Fiigura 2
       span Tipos de puntas de agujas
     
-    .BG03.p-4(data-aos="fade")
+    .color-verde.p-4(data-aos="fade")
       h2.mb-0.text-center ¿Qué punta de aguja necesito?
 
     .row.justify-content-center.mb-2
@@ -101,7 +108,7 @@
             p.text-center.mb-0 Ej.: gorras, correas,...
       
       .col-6.col-md-4.col-lg-2.mb-4.mb-lg-0.d-flex
-        .BGgt.d-flex.flex-column.justify-content-between(data-aos="slide-up")
+        .agujas-verdes.d-flex.flex-column.justify-content-between(data-aos="slide-up")
           .pb-4.px-4
             figure.mb-4
               img.w-75.mx-auto(src='@/assets/curso/tema4/img04.svg', alt='NB')
@@ -156,16 +163,21 @@
             p.text-center.mb-0 Ej.: jerseys
       
     figcaption #[strong Fuente:] Blog Insumos Textiles. (2021).
-
+    .row
+      .mb-4.d-flex.py-4
+        .d-flex.flex-wrap.align-items-center.pe-4.fondo-rojo.p-2.px-4
+          img.col-lg.d-none.d-lg-flex(src='@/assets/curso/tema1/boton.svg' style="max-width: 50px; left: 43px; position: absolute" data-aos="fade-left")
+          h3.col.px-4.mb-0.text-white(data-aos="fade-right") Tipos de en las agujas
+    
+    p.mb-4 La numeración asignada para el calibre de agujas se puede ver de manera minuciosa en el cabo de la aguja, consta de un numero de dos cifras, donde indica el diámetro o grosor de esta.
+    
     .BefCont.mb-5
       .row.justify-content-center.position-relative.p-4
-        .col-lg-11
-          .row.justify-content-center.align-items-end
+        .col-lg-12
+          .row.justify-content-center
             .col-lg-5(data-aos="fade-right")
-              h3.mb-4 Calibres y grosor de agujas
-              p.mb-4 La numeración asignada para el calibre de agujas se puede ver de manera minuciosa en el cabo de la aguja, consta de un numero de dos cifras, donde indica el diámetro o grosor de esta.
               figure.mb-4
-                img(src='@/assets/curso/tema4/img09.svg', alt='Calibres y grosor de agujas')
+                img(src='@/assets/curso/tema4/img09.png', alt='Calibres y grosor de agujas')
             .col-lg-7(data-aos="fade-left")
               .titulo-sexto.color-acento-contenido
                 h5 Tabla 1
@@ -175,17 +187,17 @@
                 table.text-center.bg-white.mb-2.tableS1
                   thead
                     tr
-                      th(rowspan='2') Tejido
+                      th(rowspan='2').color-sistema-texto #[b Tejido]
                       th.BG01s(colspan='2') Hilo
                       th.BG01s(colspan='2') Aguja
-                    tr
+                    tr.color-texto-rojo
                       th Tex
                       th Nm
                       th N&uacute;mero Europeo (NM)
                       th N&uacute;mero Americano (Singer)
                   tbody
                     tr
-                      td(rowspan='4') Fino
+                      td.color-texto-rojo(rowspan='4') #[b Fino]
                       td 14
                       td 200
                       td 55
@@ -206,7 +218,7 @@
                       td 80
                       td 12
                     tr
-                      td(rowspan='2') Medio
+                      td.color-texto-rojo(rowspan='2') #[b Medio]
                       td 45
                       td 60
                       td 90
@@ -217,7 +229,7 @@
                       td 110
                       td 18
                     tr
-                      td(rowspan='3') Grueso
+                      td.color-texto-rojo(rowspan='3') #[b Grueso]
                       td 90
                       td 30
                       td 120
@@ -233,7 +245,7 @@
                       td 140
                       td 22
                     tr
-                      td(rowspan='7') Muy grueso
+                      td.color-texto-rojo(rowspan='7') #[b Muy grueso]
                       td 210
                       td 13
                       td 160
@@ -273,15 +285,14 @@
                         | Estos valores recomendados son orientativos y se ofrecen como una referencia de partida, pero deber&aacute;n comprobarse y adaptarse a cada caso.
               
               figcaption #[strong Fuente:] Blog Insumos Textiles. (2021).
-    
+    p.mb-4 En los paneles de selección de agujas utilizados para las máquinas recubridoras, fileteadoras (sobre hiladoras) y planas, se destacan dos importantes líneas de información: la resaltada en amarillo, donde se encuentran las referencias de las agujas, y la marcada en naranja, que identifica el calibre de las agujas.        
+   
     .row.justify-content-center
-      .col-lg-4(data-aos="fade-left")
-        p.mb-4 En los paños de agujas que usamos para las máquinas recubridora, máquina fileteadora (sobre hiladora) y máquina plana, la línea resaltada amarilla encontramos la referencias y en la línea naranja se identifica el calibre de aguja.        
       .col-lg-8(data-aos="fade")
         .titulo-sexto.color-acento-contenido
           h5 Tabla 4
           span Referencias de agujas maquina recubridora, maquina fileteadora (sobre hiladora) y maquina plana
-        figure.mb-4
+        figure.color-rosadopalido
           img(src='@/assets/curso/tema4/img10.png', alt='Referencias de agujas')
               
 

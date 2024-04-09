@@ -330,7 +330,7 @@
 
       h3.color-texto-rojo.py-4 Tope a tope o canto a canto
 
-      TabsC.color-primario
+      TabsC
         .py-3.py-md-4(titulo="Tope a tope o canto a canto 1")
           .row
             .col-md-6
