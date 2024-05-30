@@ -39,42 +39,36 @@ export default {
       },
       {
         nombreRuta: 'tema1',
-        icono: 'far fa-file-alt',
         numero: '1',
         titulo: 'Máquinas de confección',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema2',
-        icono: 'far fa-file-alt',
         numero: '2',
         titulo: 'Maquinaria y equipo de procesos de confección',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema3',
-        icono: 'far fa-file-alt',
         numero: '3',
         titulo: 'Operatividad para confección de prendas',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema4',
-        icono: 'far fa-file-alt',
         numero: '4',
         titulo: 'Agujas',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema5',
-        icono: 'far fa-file-alt',
         numero: '5',
         titulo: 'Aditamentos',
         desarrolloContenidos: true,
       },
       {
         nombreRuta: 'tema6',
-        icono: 'far fa-file-alt',
         numero: '6',
         titulo: 'Tipos de puntadas y costuras',
         desarrolloContenidos: true,
@@ -116,7 +110,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/material.zip',
+        download: 'downloads/922500_CF06.zip',
       },
       {
         icono: 'far fa-registered',
@@ -181,7 +175,7 @@ export default {
     {
       termino: 'Extensor',
       significado:
-        'Elemento mecánico utilizado en la mayoría de las veces como auxiliar de los looper, corchetes para formar la puntada.',
+        'Elemento mecánico utilizado en la mayoría de las veces como auxiliar de los <i>looper</i>, corchetes para formar la puntada.',
     },
     {
       termino: 'Guía hilos',
@@ -194,7 +188,7 @@ export default {
         'Elemento mecánico que junto con la aguja, sirve para formar la puntada, su movimiento es oscilatorio.',
     },
     {
-      termino: 'Looper',
+      termino: '<i>Looper</i>',
       significado:
         'Elemento mecánico que tiene hilo propio o sea se puede enhebrar como las agujas, es decir tiene ojo.  ',
     },
@@ -241,27 +235,18 @@ export default {
         'https://prezi.com/me9vvu-vchcj/partes-y-funciones-de-la-maquina-collarin/',
     },
     {
-      referencia: 'Máquina de Coser. (2016). La Aguja y sus partes.',
-      link: 'https://maquinadecoser.com.pe/la-aguja-y-sus-partes/',
-    },
-    {
       referencia:
-        'Pardo, M. (2012). GUÍAS, PIES ADITAMENTOS PARA LA INDUSTRIA DE LA CONFECCIÓN.',
+        'Henry, R. (2012). GUIAS, PIES ADITAMENTOS PARA LA CONFECCIÓN. ',
       link:
-        'https://drive.google.com/file/d/1AcqRumpgJ8tC1jikb2bfXNrcPhlr7OFG/view?usp=sharing',
+        'https://prezi.com/qpgfi9o4wwyq/guias-pies-y-aditamentos-para-la-confeccion/',
     },
     {
-      referencia: 'SENA. (s.f.). Control de calidad en confección.',
+      referencia: 'SENA. (2023). Control de calidad en confección industrial. ',
+      link: 'https://www.youtube.com/watch?v=TkYv-h2IoK4',
     },
     {
-      referencia:
-        'SENA. (2021). Componente formativo 15, parte A: Taller básico de máquinas. Repositorios SENA.',
-    },
-    {
-      referencia:
-        'Top Máquinas de Coser. (s.f). Partes de la máquina de coser industrial.',
-      link:
-        'https://topmaquinasdecoser.es/partes-de-la-maquina-de-coser-industrial/',
+      referencia: 'Las 10 mejores máquinas de coser. (2024). ',
+      link: 'https://youtu.be/MVLK4nW8HrA',
     },
   ],
   creditos: [
@@ -269,14 +254,14 @@ export default {
       titulo: 'ECOSISTEMA DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Claudia Patricia Aristizabal',
-          cargo: 'Responsable del equipo',
+          nombre: 'Milady Tatiana Villamil Castellanos',
+          cargo: 'Responsable del Ecosistema',
           centro: 'Dirección General',
         },
         {
-          nombre: 'Nombre completo',
+          nombre: 'Claudia Johanna Gómez Pérez',
           cargo: 'Responsable de línea de producción',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -284,27 +269,49 @@ export default {
       titulo: 'CONTENIDO INSTRUCCIONAL',
       autores: [
         {
-          nombre: 'Ericka Alexandra Blanco Sánchez',
-          cargo: 'Experto técnico',
+          nombre: 'Rafael Neftalí Lizcano Reyes',
+          cargo: 'Asesor metodológico y pedagógico',
           centro:
-            'Regional Antioquia - Centro de formación en diseño, confección y moda',
+            'Regional Santander - Centro Industrial del Diseño y la Manufactura',
         },
         {
-          nombre: 'Liliana Victoria Morales Gualdrón',
-          cargo: 'Adecuador instruccional',
+          nombre: 'Pedro Luis Sossa Ramírez',
+          cargo: 'Contratista diseño y desarrollo curricular',
           centro:
-            'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
         },
         {
-          nombre: 'Vilma Lucia Perilla M',
-          cargo: 'Revisión pedagógica y metodológica',
+          nombre: 'Liliana María Ceballos Gutiérrez',
+          cargo: 'Contratista diseño y desarrollo curricular',
+          centro:
+            'Regional Antioquia - Centro de Formación en Diseño, Confección y Moda',
+        },
+        {
+          nombre: 'Carlos Parra Carrillo',
+          cargo: 'Instructor',
+          centro:
+            'Regional Huila - Centro de la Industria, la Empresa y los Servicios',
+        },
+        {
+          nombre: 'Zvi Daniel Grosman Landáez',
+          cargo: 'Contratista - Diseñador instruccional',
+          centro: 'Regional Tolima - Centro Agropecuario La Granja',
+        },
+        {
+          nombre: 'Vilma Lucía Perilla Méndez',
+          cargo: 'Revisora pedagógica y metodológica',
           centro: 'Regional Distrito Capital - Centro de Gestión Industrial',
         },
         {
-          nombre: 'Sandra Patricia Hoyos Sepúlveda',
-          cargo: 'Revisión y corrección de estilo',
+          nombre: 'José Gabriel Ortiz Abella',
+          cargo: 'Corrector de estilo',
           centro:
             'Regional Distrito Capital - Centro para la Industria de la Comunicación Gráfica',
+        },
+        {
+          nombre: 'Sandra Paola Morales Paez',
+          cargo: 'Evaluadora Instruccional',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -312,19 +319,19 @@ export default {
       titulo: 'DISEÑO Y DESARROLLO DE RECURSOS EDUCATIVOS DIGITALES',
       autores: [
         {
-          nombre: 'Nombre responsable',
-          cargo: 'Diseñador web',
-          centro: 'Nombre centro de formación',
+          nombre: 'Julián Fernando Vanegas Vera',
+          cargo: 'Diseñador de contenidos digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre responsable',
+          nombre: 'Leonardo Castellanos Rodriguez',
           cargo: 'Desarrollador Fullstack',
-          centro: 'Nombre centro de formación',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre',
-          cargo: 'Animador y Producción audiovisual',
-          centro: 'Nombre centro de formación',
+          nombre: 'Maria Alejandra Vera Briceño',
+          cargo: 'Animadora y Productora Multimedia',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },
@@ -332,14 +339,14 @@ export default {
       titulo: 'VALIDACIÓN RECURSO EDUCATIVO DIGITAL',
       autores: [
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación y vinculación en plataforma LMS',
-          centro: 'Nombre centro formación',
+          nombre: 'Laura Paola Gelvez Manosalva',
+          cargo: 'Validadora de Recursos Educativos Digitales',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
         {
-          nombre: 'Nombre validador',
-          cargo: 'Validación de contenidos accesibles',
-          centro: 'Nombre centro formación',
+          nombre: 'Erika Fernanda Mejía Pinzón',
+          cargo: 'Evaluadora para Contenidos Inclusivos y Accesibles',
+          centro: 'Regional Santander - Centro Agroturístico',
         },
       ],
     },

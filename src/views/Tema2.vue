@@ -25,32 +25,32 @@
       .col-lg-10
       .row.align-items-center.justify-content-center.mb-4
         .col-md-5.mb-5.mb-lg-0(data-aos="flip-up")
-          p.mb-5.p-3.fondo-palido Algunos tipos de máquinas pueden modificar la cama e incluso el mueble de la máquina para adaptarse mejor a las condiciones del producto, es por ello por lo que si se trabaja con prendas de gran volumen podemos encontrar términos como:
+          p.mb-5.p-3.fondo-palido Algunos tipos de máquinas pueden modificar la cama e incluso el mueble de la máquina para adaptarse mejor a las condiciones del producto, por esta razón, si se trabaja con prendas de gran volumen podemos encontrar términos como:
           ul.lista-ul--color.mb-0
             li 
               i.fas.fa-car2-side.px-2
-              | Máquina sumergida
+              | Máquina sumergida.
             li 
               i.fas.fa-car2-side.px-2
-              | Máquina semisumergida
+              | Máquina semisumergida.
             li 
               i.fas.fa-car2-side.px-2
-              | Máquina no sumergida
+              | Máquina no sumergida.
             li 
               i.fas.fa-car2-side.px-2
-              | Cama plana
+              | Cama plana.
             li 
               i.fas.fa-car2-side.px-2
-              | Cama cilíndrica o de brazo
+              | Cama cilíndrica o de brazo.
             li 
               i.fas.fa-car2-side.px-2
-              | Cama cilíndrica - transversal o de codo
+              | Cama cilíndrica - transversal o de codo.
             li 
               i.fas.fa-car2-side.px-2
-              | Cama poste
+              | Cama poste.
             li 
               i.fas.fa-car2-side.px-2
-              | Cama tipo zócalo 
+              | Cama tipo zócalo. 
         
         .col-md-5(data-aos="fade")
           figure.mb-2
@@ -61,7 +61,7 @@
       .row.align-items-center.justify-content-center(data-aos="flip-up")
         .col-lg-10 
           .row.align-items-center.justify-content-center
-            .col-lg-5
+            .col-lg-5.p-4
               img(src='@/assets/curso/tema2/img03.png', alt='')
             .col-lg-5
               .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5

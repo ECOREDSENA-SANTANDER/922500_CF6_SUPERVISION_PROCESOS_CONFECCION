@@ -16,7 +16,7 @@
               img(src="@/assets/curso/tema6/img01.svg", alt="Máquinas de confección")
             .col-lg-7
               .bloque-texto-a__texto.p-4
-                p.mb-4 En el proceso de confección se identifican los diversos tipos de puntadas y costuras que componen el resultado final, a partir de estos elementos se perciben las características que identificarán la composición operativa de la prenda.
+                p.mb-4 Durante el proceso de confección, es fundamental identificar los distintos tipos de puntadas y costuras que contribuyen al resultado final de la prenda. A través de estos elementos, se pueden discernir las características esenciales que definen la composición operativa y la construcción detallada del artículo de vestir.
       .row.justify-content-center(data-aos="fade-left") 
           .col-sm-12.col-lg-6
             .tarjeta.tarjeta-descarga.color-secundario.p-3.mb-5

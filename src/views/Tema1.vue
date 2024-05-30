@@ -32,11 +32,11 @@
         
       .tarjeta.color-rosadopalido.p-4(titulo="Características")
         .row.p-4 
-          .col.lg-3
+          .col.lg-4
             h3.text-dark Características
             p.text-dark.mb-0 Están estrechamente relacionadas con el tipo de puntada, material puesto para coser y la relación entre elementos (hilos, tela y ajuste de máquina).
           figure.pst02
-            img(src='@/assets/curso/tema1/02.png', alt='Características')
+            img(src='@/assets/curso/tema1/img02.png', alt='Características')
       
       .tarjeta.color-rosadopalido.p-4(titulo="Apariencia")
         .row.p-4 
@@ -70,14 +70,15 @@
           figure.pst02
             img(src='@/assets/curso/tema1/06.png', alt='Clasificación')
       
-      .tarjeta.color-rosadopalido.p-4(titulo="Costura")
-        .row.color-rosadopalido.p-4 
-          .col.lg-3
+      .tarjeta.color-rosadopalido.p-4(titulo="Clasificación").justify-content-center
+        .row.justify-content-center.color-rosadopalido
+          .col-lg-4
             h3.text-dark Clasificación
-            p.text-dark.mb-0 Según la forma en que se entrelazan los hilos, el número de agujas, hileras de puntadas, el lugar que ocupan en orden dentro del grupo y la cantidad de costuras previas que lleva, las costuras están clasificadas en 4 grupos: sobrepuestas, envivadas, engarzadas y tope a tope también llamadas canto a canto.
-          figure.pst02
-            img(src='@/assets/curso/tema1/07.png', alt='Clasificación')
-    
+            p.text-dark.mb-0 La clasificación de las costuras se basa en distintos criterios, incluyendo la manera en que se entrelazan los hilos, el número de agujas utilizadas, las hileras de puntadas, su posición en relación con otros elementos dentro de un conjunto y el volumen de costuras previas realizadas. Según estos criterios, las costuras se organizan en cuatro categorías principales: sobrepuestas, envivadas, engarzadas, y las conocidas como tope a tope o canto a canto.
+          .col-lg-8
+            figure.justify-content-center
+              img(src='@/assets/curso/tema1/07.png', alt='Clasificación')
+      
     p.mb-4(data-aos="fade-up") A continuación, se presentan las costuras que producen los diferentes tipos de máquinas y operaciones que se realizan con las mismas, para ello debe seguir el cursor hacia la derecha tanto en los títulos como en la flecha que indica más contenido dentro de cada uno.
     h3.color-texto-rojo.py-4 Costuras sobrepuestas
 
@@ -86,21 +87,11 @@
         .row.align-items-center
           .col-md-6.p-4
             figure
-              img(src='@/assets/curso/tema1/001.png', alt='')
-          .col-md-6.p-4
-            h5.py-4 Máquinas que la producen
-            p Planas 2 agujas, máquinas de cadeneta con 2 o más agujas como cerradoras de codo, recubridoras, reportadoras, empretinadoras.
-            h5.py-4 Algunas operaciones que se realizan con este tipo de costura
-            p Pegar vivos o sesgos sobre puestos. 
-        
-        .row.align-items-center
-          .col-md-6.p-4
-            figure
               img(src='@/assets/curso/tema1/002.png', alt='')
           .col-md-6.p-4
             h5.py-4 Máquinas que la producen
             p Planas 1 aguja, fileteadoras con puntada de seguridad o sin ella siempre que estén cosiendo en 2 o más telas, recubridoras, máquinas de zigzag.
-            h5 Algunas operaciones que se realizan con este tipo de costura
+            h5 Algunas operaciones que se realizan con este tipo de costura:
             ul.lista-ul--color
               li
                 i.fas.fa-car-side.px-2
@@ -125,13 +116,13 @@
                 | Pegar marquillas.
               li
                 i.fas.fa-car-side.px-2
-                | Fijar bolsillo delantero
+                | Fijar bolsillo delantero.
               li
                 i.fas.fa-car-side.px-2
                 | Pegar aletilla.
               li
                 i.fas.fa-car-side.px-2
-                | Unir tiro delantero cuando uno va embonado
+                | Unir tiro delantero cuando uno va embonado.
               li
                 i.fas.fa-car-side.px-2
                 | Presillas pasador.
@@ -139,11 +130,22 @@
         .row.align-items-center
           .col-md-6.p-4
             figure
+              img(src='@/assets/curso/tema1/001.png', alt='')
+          .col-md-6.p-4
+            h5.py-4 Máquinas que la producen
+            p Planas 2 agujas, máquinas de cadeneta con 2 o más agujas como cerradoras de codo, recubridoras, reportadoras, empretinadoras.
+            h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
+            p Pegar vivos o sesgos sobre puestos. 
+        
+        
+        .row.align-items-center
+          .col-md-6.p-4
+            figure
               img(src='@/assets/curso/tema1/003.png', alt='')
           .col-md-6.p-4
             h5.py-4 Máquinas que la producen
             p Planas en una o 2 agujas.
-            h5 Algunas operaciones que se realizan con este tipo de costura
+            h5 Algunas operaciones que se realizan con este tipo de costura:
             ul.lista-ul--color
               li
                 i.fas.fa-car-side.px-2
@@ -158,8 +160,8 @@
               img(src='@/assets/curso/tema1/004.png', alt='')
           .col-md-6.p-4
             h5.py-4 Máquinas que la producen
-            p Plana 1 aguja o fileteadora
-            h5 Algunas operaciones que se realizan con este tipo de costura
+            p Plana 1 aguja o fileteadora.
+            h5 Algunas operaciones que se realizan con este tipo de costura:
             ul.lista-ul--color
               i.fas.fa-car-side.px-2
               | Embonar algunas operaciones.
@@ -173,9 +175,9 @@
               img(src='@/assets/curso/tema1/005.png', alt='')
           .col-md-6.p-4
             h5.py-4 Máquinas que la producen
-            p Plana 1 aguja o fileteadora
-            h5 Algunas operaciones que se realizan con este tipo de costura
-            p.py-3 Cuando se unen primero las piezas y luego se voltean para asentarlas como cerrar y asentar tapas y pegar y asentar aletilla al delantero o pegar bolsillo delantero y luego asentarlo (también se conoce como entalegar o embonar.)
+            p Plana 1 aguja o fileteadora.
+            h5 Algunas operaciones que se realizan con este tipo de costura:
+            p.py-3 Cuando se unen primero las piezas y luego se voltean para asentarlas como cerrar y asentar tapas y pegar y asentar aletilla al delantero o pegar bolsillo delantero y luego asentarlo (también se conoce como entalegar o embonar).
         
         .row.align-items-center
           .col-md-6.p-4
@@ -184,7 +186,7 @@
           .col-md-6.p-4
             h5.py-4 Máquinas que la producen
             p Plana 1 o 2 agujas, máquinas de cadeneta con 1 o más agujas.
-            h5 Algunas operaciones que se realizan con este tipo de costura
+            h5 Algunas operaciones que se realizan con este tipo de costura:
             ul.lista-ul--color
               i.fas.fa-car-side.px-2
               | Para dobladillar cargaderas de overol.
@@ -202,7 +204,7 @@
           .col-md-6.mb-4.mb-md-0
             h5.p-4 Máquinas que la producen
             p.px-4 Plana o cadeneta 1 o más agujas.
-            h5.p-4 Algunas operaciones que se realizan con este tipo de costura
+            h5.p-4 Algunas operaciones que se realizan con este tipo de costura:
             p.px-4 Sesgar cuando el sesgo no lleva dobladillo por encima ni por debajo.
         .row(titulo="Envivada 2")
           .col-md-6
@@ -211,7 +213,7 @@
           .col-md-6.mb-4.mb-md-0
             h5.p-4 Máquinas que la producen
             p.px-4 Recubridora (general mente) o máquina de 2 agujas.
-            h5.p-4 Algunas operaciones que se realizan con este tipo de costura
+            h5.p-4 Algunas operaciones que se realizan con este tipo de costura:
             p.px-4 Sesgar camisetas, blusas, o en general prendas con dobladillo por el derecho solamente.
         .row(titulo="Envivada 3")
           .col-md-6
@@ -220,7 +222,7 @@
           .col-md-6.mb-4.mb-md-0
             h5.p-4 Máquinas que la producen
             p.px-4 Plana 1 aguja o cadeneta.
-            h5.p-4 Algunas operaciones que se realizan con este tipo de costura
+            h5.p-4 Algunas operaciones que se realizan con este tipo de costura:
             p.px-4 Sesgar o empretinar con 1 sola aguja.
         .row(titulo="Envivada 4")
           .col-md-6
@@ -229,7 +231,7 @@
           .col-md-6.mb-4.mb-md-0
             h5.p-4 Máquinas que la producen
             p.px-4 Plana 2 agujas, máquinas de cadeneta como resortadoras, recubridoras, empretinadoras.
-            h5.p-4 Algunas operaciones que se realizan con este tipo de costura
+            h5.p-4 Algunas operaciones que se realizan con este tipo de costura:
             p.px-4 Empretinar o sesgar con 2 o más agujas.
         .row(titulo="Envivada 5")
           .col-md-6
@@ -238,7 +240,7 @@
           .col-md-6.mb-4.mb-md-0
             h5.p-4 Máquinas que la producen
             p.px-4 Plana 1 aguja o cadeneta 1 aguja o combinaciones de fileteadora sin puntada de seguridad con plana o cadeneta.
-            h5.p-4 Algunas operaciones que se realizan con este tipo de costura
+            h5.p-4 Algunas operaciones que se realizan con este tipo de costura:
             p.px-4 Sesgar o empretinar cuando las pestañas o márgenes de costura no son iguales por los dos lados, se hace en dos operaciones.
         .row(titulo="Envivada 6")
           .col-md-6
@@ -247,7 +249,7 @@
           .col-md-6.mb-4.mb-md-0
             h5.p-4 Máquinas que la producen
             p.px-4 Plana 1 aguja o cadeneta 1 aguja o combinaciones de fileteadora sin puntada de seguridad con plana o cadeneta.
-            h5.p-4 Algunas operaciones que se realizan con este tipo de costura
+            h5.p-4 Algunas operaciones que se realizan con este tipo de costura:
             p.px-4 Sesgar o pretinar en plana, se pega el sesgo o la pretina y luego se asienta.
 
       h3.color-texto-rojo.py-4 Engarzadas
@@ -261,7 +263,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana o cadeneta.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Unir piezas de material que no están sobrepuestas en su extensión sino en el borde únicamente. 
           
           .row.align-items-center
@@ -271,7 +273,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana 2 agujas, máquinas de cadeneta con más de 2 agujas.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Pretina de sándwich o doble, vivos o sesgos dobles.
              
           .row.align-items-center
@@ -281,7 +283,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana 2 agujas, máquinas de cadeneta con más de 2 agujas.
-              h5 Algunas operaciones que se realizan con este tipo de costura
+              h5 Algunas operaciones que se realizan con este tipo de costura:
               ul.lista-ul--color
                 i.fas.fa-car-side.px-2
                 | Cerrar entrepierna o costados. 
@@ -303,7 +305,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana o cadeneta.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Embonar o entalegar, hombros, almillas, generalmente con guía.
               
 
@@ -314,7 +316,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana 2 agujas o cadenetas con 2 o más agujas.
-              h5 Algunas operaciones que se realizan con este tipo de costura
+              h5 Algunas operaciones que se realizan con este tipo de costura:
               p.py-3 Envivar o sesgar por un solo lado, algunos tipos de pretinas anatómicas y perillas de camisas.
           
           .row.align-items-center
@@ -324,14 +326,14 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana o cadeneta.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Embonar o entalegar en dos operaciones, casi todas las costuras que van unidas en fileteadoras y luego asentadas en plana, dos agujas o cadenetas, como asentar costados, hombros, mangas.
 
 
       h3.color-texto-rojo.py-4 Tope a tope o canto a canto
 
       TabsC
-        .py-3.py-md-4(titulo="Tope a tope o canto a canto 1")
+        .p-4.py-md-4(titulo="Tope a tope o canto a canto 1")
           .row
             .col-md-6
               figure
@@ -339,11 +341,11 @@
                
             .col-md-6.mb-4.mb-md-0
               h5.py-4 Máquinas que la producen
-              p Recubridora o flatseamer.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              p Recubridora o #[em flatseamer.]
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Unir piezas por el borde como pretinas, sesgos, algunas piezas de la ropa interior.
         
-        .py-3.py-md-4(titulo="Tope a tope o canto a canto 2")
+        .p-4.py-md-4(titulo="Tope a tope o canto a canto 2")
           .row
             .col-md-6
               figure
@@ -352,10 +354,10 @@
             .col-md-6
               h5.py-4 Máquinas que la producen
               p Fileteadora.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Para unir pretinas o sesgos se unen en fileteadora con la puntada floja y luego se abren las dos telas en sentidos opuestos.
           
-        .py-3.py-md-4(titulo="Tope a tope o canto a canto 3")
+        .p-4.py-md-4(titulo="Tope a tope o canto a canto 3")
           .row
             .col-md-6
               figure
@@ -363,10 +365,13 @@
                 
             .col-md-6.mb-4.mb-md-0
               h5.py-4 Máquinas que la producen
-              p Zigzag
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              p Zigzag.
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Unir piezas por el borde como pretinas, sesgos, algunas piezas de la ropa interior.
-         
+      .row
+        .col-lg
+          figcaption.figcaption  Nota. SENA; (2021)
+
       .mb-4.d-flex.py-4
         .d-flex.flex-wrap.align-items-center.pe-4.fondo-rojo.p-2.px-4
           img.col-lg.d-none.d-lg-flex(src='@/assets/curso/tema1/boton.svg' style="max-width: 50px; left: 43px; position: absolute" data-aos="fade-left")
@@ -386,17 +391,14 @@
                 img(src='@/assets/curso/tema1/verde1.png', alt='')
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
-              p Plana 1 o 2 agujas, cadeneta con una o más agujas.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              p Plana o 2 agujas, cadeneta doble, recubridoras.
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               ul.lista-ul--color
                 i.fas.fa-car-side.px-2
-                | Dobladillar bota de pantalón o jean. 
+                | Doblar bandas de cuello de camisas.
               ul.lista-ul--color
                 i.fas.fa-car-side.px-2
-                | Ruedos de camisa.
-              ul.lista-ul--color
-                i.fas.fa-car-side.px-2
-                | Dobladillar bolsillos.
+                | Doblar puños, ruedos de camisetas.
            
           
           .row.align-items-center
@@ -405,29 +407,26 @@
                 img(src='@/assets/curso/tema1/verde2.png', alt='')
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
-              p Plana o 2 agujas, cadeneta doble, recubridoras.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              p Plana 1 o 2 agujas, cadeneta con una o más agujas.
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               ul.lista-ul--color
                 i.fas.fa-car-side.px-2
-                | Doblar bandas de cuello de camisas. 
+                | Dobladillar bota de pantalón o jean.
               ul.lista-ul--color
                 i.fas.fa-car-side.px-2
-                | Doblar puños, ruedos de camisetas.
-    
+                | Ruedos de camisa.
+              ul.lista-ul--color
+                i.fas.fa-car-side.px-2
+                | Dobladillar bolsillos.
           .row.align-items-center
             .col-md-6.p-4
               figure
                 img(src='@/assets/curso/tema1/verde3.png', alt='')
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
-              p Plana o 2 agujas, cadeneta doble, recubridoras.
-              h5 Algunas operaciones que se realizan con este tipo de costura
-              ul.lista-ul--color
-                i.fas.fa-car-side.px-2
-                | Doblar bandas de cuello de camisas.
-              ul.lista-ul--color
-                i.fas.fa-car-side.px-2
-                | Doblar puños, ruedos de camisetas.
+              p Plana 1 o 2 agujas, cadeneta con una o más agujas.
+              h5 Algunas operaciones que se realizan con este tipo de costura:
+              p Pasador en plana o en recubridora con dos agujas, pero revisar el acabado inferior.
             
           .row.align-items-center
             .col-md-6.p-4
@@ -435,8 +434,8 @@
                 img(src='@/assets/curso/tema1/verde4.png', alt='')
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
-              p Fileteadora
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              p Fileteadora.
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Filetear aletillas, costados (costuras abiertas).
               
 
@@ -447,7 +446,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana o cadeneta.
-              h5 Algunas operaciones que se realizan con este tipo de costura
+              h5 Algunas operaciones que se realizan con este tipo de costura:
               p.py-3 Resortar encarterando elástico (revisar la posición del elástico).
           
           .row.align-items-center
@@ -457,7 +456,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana dos agujas, recubridora.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Hacer pasador.
           
           .row.align-items-center
@@ -467,7 +466,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana 1 o dos agujas, recubridoras, cadeneta.
-              h5 Algunas operaciones que se realizan con este tipo de costura
+              h5 Algunas operaciones que se realizan con este tipo de costura:
               p.py-3 Resortar encarterando elástico.
           
           .row.align-items-center
@@ -477,7 +476,7 @@
             .col-md-6.p-4
               h5.py-4 Máquinas que la producen
               p Plana 1 aguja o fileteadora.
-              h5.py-4 Algunas operaciones que se realizan con este tipo de costura
+              h5.py-4 Algunas operaciones que se realizan con este tipo de costura:
               p Hacer tira de espagueti.
     
 </template>
