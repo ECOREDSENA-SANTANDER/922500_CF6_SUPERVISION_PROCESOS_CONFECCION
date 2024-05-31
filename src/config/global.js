@@ -105,7 +105,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/material.pdf',
+        download: 'downloads/CF06_922500_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -197,7 +197,7 @@ export default {
     {
       referencia:
         'Armando sk. (2012). AGUJAS PARA MÁQUINA DE COSER / LITTLE POST.',
-      link: 'https://www.pinterest.es/pin/157133474477830809/',
+      link: 'https://youtu.be/UL3QaKtjhLY',
     },
     {
       referencia: 'Brildor. (2021). ¿Qué aguja debo comprar para mi máquina?',
@@ -242,7 +242,7 @@ export default {
     },
     {
       referencia: 'SENA. (2023). Control de calidad en confección industrial. ',
-      link: 'https://www.youtube.com/watch?v=TkYv-h2IoK4',
+      link: 'https://youtu.be/I8adPpXG-n8',
     },
     {
       referencia: 'Las 10 mejores máquinas de coser. (2024). ',
