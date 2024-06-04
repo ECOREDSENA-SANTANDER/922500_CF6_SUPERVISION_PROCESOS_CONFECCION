@@ -175,7 +175,7 @@ export default {
     {
       termino: 'Extensor',
       significado:
-        'Elemento mecánico utilizado en la mayoría de las veces como auxiliar de los <i>looper</i>, corchetes para formar la puntada.',
+        'Elemento mecánico utilizado en la mayoría de las veces como auxiliar de los looper, corchetes para formar la puntada.',
     },
     {
       termino: 'Guía hilos',
@@ -188,7 +188,7 @@ export default {
         'Elemento mecánico que junto con la aguja, sirve para formar la puntada, su movimiento es oscilatorio.',
     },
     {
-      termino: '<i>Looper</i>',
+      termino: 'Looper',
       significado:
         'Elemento mecánico que tiene hilo propio o sea se puede enhebrar como las agujas, es decir tiene ojo.  ',
     },
@@ -242,7 +242,7 @@ export default {
     },
     {
       referencia: 'SENA. (2023). Control de calidad en confección industrial. ',
-      link: 'https://youtu.be/I8adPpXG-n8',
+      link: 'https://youtu.be/1o1XpJqUCms',
     },
     {
       referencia: 'Las 10 mejores máquinas de coser. (2024). ',
