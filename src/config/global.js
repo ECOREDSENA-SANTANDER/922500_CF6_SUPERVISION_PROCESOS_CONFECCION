@@ -196,7 +196,7 @@ export default {
   referencias: [
     {
       referencia:
-        'Armando sk. (2012). AGUJAS PARA MÁQUINA DE COSER / LITTLE POST.',
+        'Mecanica Costura (2023) - Tipos De Agujas Para Maquinas De Coser',
       link: 'https://youtu.be/UL3QaKtjhLY',
     },
     {
@@ -236,12 +236,12 @@ export default {
     },
     {
       referencia:
-        'Henry, R. (2012). GUIAS, PIES ADITAMENTOS PARA LA CONFECCIÓN. ',
+        'Henry, R. (2012). GUÍAS, PIES ADITAMENTOS PARA LA CONFECCIÓN. ',
       link:
         'https://prezi.com/qpgfi9o4wwyq/guias-pies-y-aditamentos-para-la-confeccion/',
     },
     {
-      referencia: 'SENA. (2023). Control de calidad en confección industrial. ',
+      referencia: 'SENA. (2024). Inspección producto terminado',
       link: 'https://youtu.be/1o1XpJqUCms',
     },
     {
