@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="68.39" height="173.831" viewBox="0 0 68.39 173.831">
+  <defs>
+    <linearGradient id="linear-gradient" y1="0.5" x2="1" y2="0.5" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#eeebe9"/>
+      <stop offset="0" stop-color="#e7e3e0"/>
+      <stop offset="0.038" stop-color="#d8d5d2"/>
+      <stop offset="0.11" stop-color="#b1b0af"/>
+      <stop offset="0.208" stop-color="#727777"/>
+      <stop offset="0.264" stop-color="#4c5354"/>
+      <stop offset="0.267" stop-color="#4e5556"/>
+      <stop offset="0.37" stop-color="#909495"/>
+      <stop offset="0.456" stop-color="#c0c2c3"/>
+      <stop offset="0.521" stop-color="#dddedf"/>
+      <stop offset="0.558" stop-color="#e9e9ea"/>
+      <stop offset="0.623" stop-color="#dfdfe1"/>
+      <stop offset="0.732" stop-color="#c5c7ca"/>
+      <stop offset="0.871" stop-color="#9a9fa4"/>
+      <stop offset="0.876" stop-color="#999ea3"/>
+      <stop offset="1" stop-color="#dadada"/>
+      <stop offset="1" stop-color="#b2b2b2"/>
+    </linearGradient>
+  </defs>
+  <g id="Grupo_78996" data-name="Grupo 78996" transform="translate(-1081.3 -2995.981)">
+    <circle id="Elipse_4619" data-name="Elipse 4619" cx="33.695" cy="33.695" r="33.695" transform="translate(1081.8 3101.922)" fill="#fff" stroke="#545454" stroke-miterlimit="10" stroke-width="1" stroke-dasharray="3 3"/>
+    <path id="Trazado_117346" data-name="Trazado 117346" d="M1696.654,489.048a33.55,33.55,0,0,0-14.817,3.43c-.678.337-6.1,3.856-6.1,3.856.762,34.329,8.145,37.051,13.014,42.413a10.092,10.092,0,0,0,13.042,2.148,31.234,31.234,0,0,0,9.253-11.495c3.218-7.068,4.782-19.126,4.863-33.7.008-1.421-4.655-3.339-6.833-4.284A33.6,33.6,0,0,0,1696.654,489.048Z" transform="translate(-581.159 2612.874)" fill="#cfd6f0" stroke="#7a839e" stroke-miterlimit="10" stroke-width="1" style="isolation: isolate"/>
+    <path id="Trazado_117347" data-name="Trazado 117347" d="M1711.683,442.179c-.362,4.421-1.15,10.647-2.171,17.735-3.339,23.176-5.723,51.777-6.336,59.478a12.8,12.8,0,0,1-1.8,5.145c-1.45,1.787-1.074,1.958-3.853,2.905-3.464,1.181-5.9-2.192-7.177-4.326a12.825,12.825,0,0,1-1.63-4.71c-.952-6.424-4.809-32.986-7.2-57.575-.727-7.461-2.32-13.883-2.8-18.463-1.54-14.733-1.137-59.242-1.137-59.242h34.484S1712.888,427.465,1711.683,442.179Z" transform="translate(-581.159 2612.874)" fill="url(#linear-gradient)"/>
+    <path id="Trazado_117348" data-name="Trazado 117348" d="M1692.549,394.053h4.74a5.507,5.507,0,0,1,3.788,1.541,5.936,5.936,0,0,0-5.638-4.841h-1.04a5.936,5.936,0,0,0-5.638,4.841A5.507,5.507,0,0,1,1692.549,394.053Z" transform="translate(-581.159 2612.874)" fill="#2c2c42" stroke="#2c2c42" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_117349" data-name="Trazado 117349" d="M1681.368,383.126s1.7,43.137,1.7,46.169,5.849,27.96,6.442,29.368c1.421,3.375,6.953,7.107,10.7-1.137,3.125-6.865,5.969-28.421,5.969-28.421V383.126" transform="translate(-581.159 2612.874)" fill="none" stroke="#2c2c42" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_117350" data-name="Trazado 117350" d="M1701.831,425.78c-.006-.032-.063-.059-.166-.083a6.346,6.346,0,0,1-6.182,4.924h-1.136a6.345,6.345,0,0,1-6.161-4.841l1.708,25.115s0-13.074,1.326-15.158,2.274-2.274,4.927-2.463,4.357-1.137,3.6.758.362,14.021.181,14.778,1.719,0,1.716-5.494S1701.917,426.285,1701.831,425.78Z" transform="translate(-581.159 2612.874)" fill="#2c2c42" style="isolation: isolate"/>
+    <rect id="Rectángulo_9318" data-name="Rectángulo 9318" width="13.832" height="37.447" rx="6.347" transform="translate(1106.84 3006.048)" fill="none" stroke="#2c2c42" stroke-miterlimit="10" stroke-width="1"/>
+    <path id="Trazado_117351" data-name="Trazado 117351" d="M1689.009,458.758c.3,1.167.558,1.932.608,2.162,1.247,5.72,6.75,9.858,10.705-1.137.193-.536.191-1.869.423-2.541C1694.635,465.911,1691.426,461.456,1689.009,458.758Z" transform="translate(-581.159 2612.874)" fill="#2c2c42" style="isolation: isolate"/>
+    <rect id="Rectángulo_9320" data-name="Rectángulo 9320" width="13.832" height="37.447" rx="6.347" transform="translate(1106.84 3006.048)" fill="#fff"/>
+  </g>
+</svg>
