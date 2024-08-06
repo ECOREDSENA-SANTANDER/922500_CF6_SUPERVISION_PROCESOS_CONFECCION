@@ -110,7 +110,7 @@ export default {
       {
         icono: 'fas fa-download',
         titulo: 'Descargar material',
-        download: 'downloads/CF06_922500_DU.zip',
+        download: 'downloads/material.zip',
       },
       {
         icono: 'far fa-registered',
